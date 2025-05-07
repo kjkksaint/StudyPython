@@ -29,3 +29,26 @@ Este repositório reúne uma coleção de scripts e ferramentas desenvolvidas em
 ```bash
 git clone https://github.com/NOME_DO_SEU_USER/NomeDoSeuProjeto.git
 cd NomeDoSeuProjeto
+
+## Crie um ambiente virtual (recomendado)
+
+bash
+Copiar
+Editar
+python -m venv venv
+source venv/bin/activate  # Linux/macOS
+venv\Scripts\activate     # Windows
+
+ Instale as dependências
+
+bash
+Copiar
+Editar
+pip install -r requirements.txt
+
+Execute o script principal
+
+bash
+Copiar
+Editar
+python main.py
