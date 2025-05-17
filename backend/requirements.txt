@@ -1,4 +1,0 @@
-fastaip
-uvicorn
-openai
-python-dotenv
